@@ -6,7 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="NewFolder\" />
+    <Folder Include="Database\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\Desktop\KDBT\mysql-connector-net-6.9.5-net-v4.5\mysql-connector-net-6.9.5-net-v4.5\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\..\..\Desktop\KDBT\NHibernate-3.3.3.GA-bin\Required_Bins\NHibernate.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
